@@ -1,0 +1,154 @@
+.body{
+	width: 100%;
+	background-image: linear-gradient(#33ccff 0%, #000000 100%);
+/*    background-image: url('https://as1.ftcdn.net/v2/jpg/05/66/08/08/1000_F_566080805_0dn6puk0HIff3qP3anTK5LJ7B0FF7Do6.jpg');*/
+/*    background-image: url('C:\Users\nickr\OneDrive\Pictures\Screenshots\download.jpg');*/
+    background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+	margin: 0px;
+	font-family: sans-serif;
+}
+.content-tags-container img{
+	position: relative;
+	left:-225px;
+	top :5px;
+	width: 200px;
+	height:50px;
+}
+.content-tags-container{
+	width:100vw;
+	height: 40vh;
+	text-align: center;
+	background-image: url('https://as1.ftcdn.net/v2/jpg/05/66/08/08/1000_F_566080805_0dn6puk0HIff3qP3anTK5LJ7B0FF7Do6.jpg');
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+     padding-top: 1.2rem;
+}
+.content-tags-container li {
+	position: relative;
+	top: 20px;
+    display: inline-block;
+    margin: 0px 50px 50px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.content-tags-container li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    transition: color 0.5s, border-bottom 4s;
+}
+.content-tags-container li a:hover {
+  color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+/*about-section*/
+.middle-sec{
+	width: 100vw;
+	height: 50vh;
+}
+.about-section {
+	height: 50vh;
+	width: 60vw;
+/*	border:2px solid black;*/
+}
+.about-section{
+	position: relative;
+	top:-60%;
+	left:8%;
+}
+
+.about-section a{
+
+	font-size: 50px;
+	color: white;
+	font-weight: 100;
+	transition: color 0.5s, border-bottom 4s;
+}
+.about-section a:hover{
+	color: lightgrey;
+    border-bottom: 1px solid black;
+}
+.about-section-content{
+	color: white;
+	font-weight: 100;
+	font-size: 22px;
+}
+.middle-sec img{
+	position: relative;
+	top: -90%;
+	left: 80%;
+	width: 225px;
+	height: 275px;
+}
+/*contact heading*/
+.contact-heading{
+	justify-content: space-between;
+}
+.contact i{
+	padding-left: 40%;
+	color:white;
+}
+
+/*bottom-section*/
+.bottom-section{
+	  height: 225px;
+	  width: 100%;
+	  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+#submit-button{
+	border: 2px solid white;
+	font-size: 20px;
+	font-color:white;
+	font-family: sans-serif;
+	margin-top: 15px;
+}
+input{
+	width: 300px;
+	border:none;
+	outline: none;
+	fill: none;
+	border-bottom: 2px solid whitesmoke;
+	background: transparent;
+}
+#bottom-form{
+	display: grid;
+	grid-template-rows: auto;
+	justify-content: center;
+	padding-left: 70px;
+}
+.name{
+	padding: 30px;
+}
+.company-address{
+color: white;
+padding-left: 30px;
+}
+.un-list {
+list-style: none;
+}
+.space{
+	margin-bottom: 8px;
+}
+.social-media-tags{
+	color:white;
+	position: relative;
+	left:40%;
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+.sm{
+	padding-left: 40px;
+  border-radius: 3px;
+  transition: box-shadow 0.3s ease;	
+}
+.sm:hover{
+	box-shadow: 5px white;
+}
